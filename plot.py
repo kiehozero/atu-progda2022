@@ -7,8 +7,10 @@ y = 3.0 * x
 noise = np.random.normal(0.0,2.0,len(x))
 
 # the 'b'in the 'bo' parameter will remove the default assumption that there is a linear relationship between the points along the x-axis
-plt.plot(x, y + noise, 'g-')
-plt.plot(x,y, 'b.')
-plt.xlabel("rubbish")
-plt.ylabel('some numbers')
+plt.plot(x, y + noise, 'g.', label="Actual Data")
+plt.plot(x, y, 'b-',label="Fitted Model")
+plt.xlabel("Average speed (mph)")
+plt.ylabel("Average distance (yds)")
+plt.legend()
+plt.title("Average speed versus distance")
 plt.show()
