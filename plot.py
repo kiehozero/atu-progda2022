@@ -1,6 +1,7 @@
 # based roughly on the tutorial found at https://matplotlib.org/stable/tutorials/introductory/pyplot.html
 import matplotlib.pyplot as plt
 import numpy as np
+import math
 
 x = np.arange(0.0, 10.0, 0.01)
 y = 3.0 * x
