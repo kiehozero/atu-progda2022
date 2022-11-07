@@ -15,3 +15,4 @@ plt.ylabel("Average distance (yds)")
 plt.legend()
 plt.title("Average speed versus distance")
 plt.show()
+ 
